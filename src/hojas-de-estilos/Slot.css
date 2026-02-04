@@ -1,14 +1,23 @@
 .Contenedor-principal{
-      display: flex;
-    padding: 10px;
-    border-radius: 30px;
+  display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    padding: 16px;
+    border-radius: 24px;
     text-align: center;
     color: white;
-    height: 350px;
-    border: solid 1px #ffffff;
-    transition: all 0.3s;
-    width: 250px;
+    border: 1px solid #ffffff;
+
+    min-height: 260px;
+    transition: .4s;
+
+
+
+}
+
+h4{
+    margin-top: 10px;
 }
 
 .Contenedor-principal:hover{
@@ -26,7 +35,9 @@
 }
 
 .imagen-pokemon{
-    height: 300px;
+    width: 100%;
+    max-height: 220px;
+    object-fit: contain;
 }
 
 .tiposimg{
@@ -62,4 +73,18 @@ height: 38px;
     font-size: 18px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media (max-width: 900px){
+    .todos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px){
+    .todos{
+        grid-template-columns: 1fr;
+    }
 }

@@ -69,7 +69,9 @@ function Slot(props) {
                 alt={props.alt} />
             )}
             <h4 >
-                {props.nombre}
+            <hr></hr>
+            <br/>
+            ○ {props.nombre} ○
             </h4>
             <div className="tipos">
                 <div className="tipoPrimario"
