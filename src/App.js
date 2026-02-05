@@ -2,14 +2,22 @@ import './App.css';
 import { useState } from 'react';
 import Slot from './componentes/Slot.jsx';
 
+
 function App() {
   return (
     <div className="App">
       
+<header>
+
+<h2></h2>
+
+
+</header>
+
+
+
 
     <div className='todos'>
-
-
       <Slot
         imagen="bulbasaur4"
         nombre="Bulbasuar"

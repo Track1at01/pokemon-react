@@ -3,7 +3,7 @@ import "../hojas-de-estilos/Slot.css"
 import bgPokeball from '../imagenes-fondos/pokeball-blanca.png';
 
 function Slot(props) {
-    const gradient = `linear-gradient(180deg, ${props.colorfondo1 || 'rgba(0,0,0,0.25)'}, ${props.colorfondo2 || 'rgba(0,0,0,0.15)'})`;
+    const gradient = `linear-gradient(180deg, ${props.colorfondo1 || 'rgba(0, 0, 0, 0.27)'}, ${props.colorfondo2 || 'rgba(0, 0, 0, 0.36)'})`;
     const style = {
         backgroundImage: `${gradient}, url(${bgPokeball})`,
         backgroundRepeat: 'no-repeat',
@@ -29,7 +29,7 @@ function Slot(props) {
     };
     const norm = s => (s || '').toString().trim().toLowerCase();
     const colorTipo1 = props.colortipo1 || typeColors[norm(props.primertipo)] || '#777';
-    const colorTipo2 = props.colortipo2 || typeColors[norm(props.segundotipo)] || '#777';
+    const colorTipo2 = props.colortipo2 || typeColors[norm(props.segundotipo)] || '#555555b4';
 
     const typeIcons = {
         dragon: 'dragon-icono.png',
@@ -100,5 +100,7 @@ function Slot(props) {
         </div>
     )
 }
+
+
 
 export default Slot;
