@@ -36,19 +36,14 @@ body{
     opacity: 1;
 }
 
-.todos{
-     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 🔥 3 exactos */
-    gap: 20px;
 
-    width: min(900px, 95%);
+.todos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    width: min(700px, 95%);
     margin: 0 auto;
     padding: 20px;
-
-    border-radius: 12px;
-    background-color: rgba(61, 39, 9, 0.25);
-    backdrop-filter: blur(6px);
-
-  
-
 }
+
+
