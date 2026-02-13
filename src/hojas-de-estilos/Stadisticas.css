@@ -1,0 +1,28 @@
+.pesoYesasvainas h5 {
+    margin-top: 10px;
+}
+
+.intento-perspectiva {
+    transform-style: preserve-3d;
+    transform: rotateY(-7deg);
+}
+
+
+.caja-arriba {
+    display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.85);
+        width: 1500px;
+        height: 500px;
+        position: relative;
+        perspective: 100px;
+}
+
+.caja-arriba img{
+    height: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
