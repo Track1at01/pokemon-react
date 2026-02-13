@@ -1,19 +1,14 @@
 .Contenedor-principal{
   display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
     padding: 16px;
     border-radius: 24px;
     text-align: center;
     color: white;
     border: 1px solid #ffffff;
-
     min-height: 260px;
     transition: .4s;
-
-
-
+    width: 270px;
 }
 
 h4{
@@ -31,7 +26,6 @@ h4{
 .tipos{
     display: flex;
     flex-direction: row;
-
 }
 
 .imagen-pokemon{
@@ -43,20 +37,16 @@ h4{
 .tiposimg{
     height: 40px;
     border-radius: 60%;
-    
 }
 
 .tipoPrimario{
-width: 50%;
-display: flex;
-align-items: center;
-width: 50%;
 display: flex;
 align-items: center;
 border-radius: 40px;
 height: 38px;
 margin-top: 30px;
 margin-right: 10px;
+width: 50%;
 }
 
 .tipoSecundario{

@@ -1,9 +1,11 @@
 import './App.css';
 import Slot from './componentes/Slot.jsx';
 import { kanto } from './data/kanto.js';
-
 import StatsPanel from './componentes/StatsPanel';
 import { useState } from 'react';
+import { coloresTipos } from './data/coloresTipos.js';
+
+
 
 function App() {
   const [pokemonActivo, setPokemonActivo] = useState(null);

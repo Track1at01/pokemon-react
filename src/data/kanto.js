@@ -231,7 +231,6 @@ export const kanto = [
   crearPokemon(70, "Weepinbell", ["planta", "veneno"], {
     vida: 65, ataque: 90, defensa: 50, ataqueEspecial: 85, defensaEspecial: 45, velocidad: 55
   }),
- 
   crearPokemon(71, "Victreebel", ["planta", "veneno"], {
     vida: 80, ataque: 105, defensa: 65, ataqueEspecial: 100, defensaEspecial: 70, velocidad: 70
   }),

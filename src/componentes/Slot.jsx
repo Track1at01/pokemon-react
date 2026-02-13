@@ -31,7 +31,7 @@ function Slot({ onSelect, ...props }) {
       </h4>
 
       <div className="tipos">
-        <div className="tipoPrimario" style={{ backgroundColor: tipo1.color }}>
+        <div className="tipoPrimario" style={{ backgroundColor: tipo1.color, }}>
           <img className="tiposimg" src={tipo1.img} alt={props.tipoPrincipal} />
           <h5>{props.tipoPrincipal}</h5>
         </div>

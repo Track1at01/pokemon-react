@@ -41,9 +41,9 @@ body{
 
 .todos{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 2fr));
     gap: 20px;
-    width: min(700px, 95%);
+    width: min(900px, 95%);
     margin: 0 auto;
     padding: 20px;
 }
